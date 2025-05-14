@@ -11,7 +11,7 @@ const getUsers = async (req,res) =>{
     if (data) {
         res.send (data)
     } else {
-        res.send (400, ("no se pudieron encontrar datos de usuario"))
+        res.status(400).send("no se pudieron encontrar datos de usuario")
     }
 }
 
