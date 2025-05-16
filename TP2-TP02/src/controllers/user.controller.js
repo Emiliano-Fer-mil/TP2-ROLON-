@@ -8,6 +8,7 @@ import userService from "../services/user.service.js";
 const getUsers = async (req,res) =>{
     const data = await userService.getUsers()
     // por qué si están declaradas como constantes se las invoca como funciones getUsers()????
+    //el valor de la constante getUsers es una función, en Javascript se puede ejecutar directamente
     if (data) {
         res.send (data)
     } else {

@@ -10,6 +10,8 @@ const app = express()
 const port = 8080
 
 // middleware para convertir "automáticamente" json a ¿¿ string??
+//parsea automáticamente en formato JSON
+//en vez de a cada solicitud poner: "Content-Type: application/json" como lo vimos con módulo http
 app.use(express.json())
 
 // declarar el punto de entrada a las turas de la entidad "usuario"
