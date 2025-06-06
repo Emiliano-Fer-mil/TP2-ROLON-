@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "numero": "00010",
+    "tipo": "A",
+    "monto": 1400000,
+    "estado": "pendiente de pago"
+  },
+  {
+    "id": 2,
+    "numero": "00011",
+    "tipo": "A",
+    "monto": 1400000,
+    "estado": "pendiente de pago"
+  },
+  {
+    "numero": "00011",
+    "tipo": "B",
+    "monto": 250000,
+    "estado": "pagada",
+    "id": 3
+  }
+]

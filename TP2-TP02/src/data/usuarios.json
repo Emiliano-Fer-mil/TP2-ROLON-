@@ -40,17 +40,5 @@
     "nombre": "g",
     "apellido": "g",
     "mail": "g@g.com.ar"
-  },
-  {
-    "id": 9,
-    "nombre": "prilidiano",
-    "apellido": "prilidiano",
-    "mail": "prilidiano"
-  },
-  {
-    "id": 8,
-    "nombre": "pepe",
-    "apellido": "palo",
-    "mail": "pepe@palo.com"
   }
 ]
